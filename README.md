@@ -47,13 +47,12 @@ If you're dealing with time and space, Torque can build compelling
 visualizations ranging over both dimensions.
 
 
-[CartoDB SQL Updates](.examples/writing-data/)
+[CartoDB SQL API](.examples/writing-data/)
 > Keeping API keys in client applications is NOT a safe practice.
 > Do NOT use the techniques practiced in this lab in the wild.
 
-It is possible to persist data with CartoDB. We'll take a look at how
-it can be done and practice building an application which manages user
-input.
+It is possible to persist data with CartoDB. This demo illustrates how
+it can be done for an application which deals with user input.
 
 
 
