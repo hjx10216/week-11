@@ -4,28 +4,39 @@
 
 ### Introduction
 - SQL with CartoDB
+  - Manually writing SQL for analysis
+  - Always:clap:use:clap:the:clap:SQL:clap:console:clap:
+  - SQL [types](https://www.postgresql.org/docs/9.5/static/datatype.html), special Carto columns, and PostGIS [types](https://postgis.net/docs/reference.html#PostGIS_Types)
+  - [Creating new
+    tables](https://github.com/CartoDB/cartodb/wiki/creating-tables-though-the-SQL-API)
+  - Results as GeoJSON
+- SQL Resources
+- Examples
   - Torque for time series
-  - SQL for persistent data changes
+  - SQL for persisting data changes, interaction, and GeoJSON
 
 ### PostgreSQL & PostGIS Resources
 
 #### SQL Related
 > Good
-[postgresql FAQ](https://wiki.postgresql.org/wiki/FAQ)
-[postgresql.org documentation](https://www.postgresql.org/docs/9.5/static/)
-[Stack overflow](http://stackoverflow.com/)
+
+- [postgresql FAQ](https://wiki.postgresql.org/wiki/FAQ)
+- [postgresql.org documentation](https://www.postgresql.org/docs/9.5/static/)
+- [Stack overflow](http://stackoverflow.com/)
 
 > OK, not great
-[tutorialspoint.com](http://www.tutorialspoint.com/postgresql/)
-[w3 schools](https://www.w3schools.com/sql/)
+
+- [tutorialspoint.com](http://www.tutorialspoint.com/postgresql/)
+- [w3 schools](https://www.w3schools.com/sql/)
 
 
 #### GIS Extension Related
 > Good
-[PostGIS special function
+
+- [PostGIS special function
 index](https://postgis.net/docs/PostGIS_Special_Functions_Index.html)
-[PostGIS reference docs](http://postgis.net/docs/reference.html)
-[Stack exchange's GIS-specific subdomain](gis.stackexchange.com/)
+- [PostGIS reference docs](http://postgis.net/docs/reference.html)
+- [Stack exchange's GIS-specific subdomain](gis.stackexchange.com/)
 
 #### Examples
 
