@@ -21,7 +21,7 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{
 
 // 1. AJAX (which is perhaps more error prone)
 /*
-$.ajax("https://npzimmerman.cartodb.com/api/v2/sql?q=SELECT * FROM pizza_ratings&api_key=API_KEY").done(function(data) {
+$.ajax("https://moradology.carto.com/api/v2/sql?q=SELECT * FROM pizza_ratings&api_key=API_KEY").done(function(data) {
   console.log(data);
 });
 */
@@ -29,7 +29,7 @@ $.ajax("https://npzimmerman.cartodb.com/api/v2/sql?q=SELECT * FROM pizza_ratings
 // 2. The cartodb.js client (which provides SQL templating and a simpler argument interface
 // First, we create the client (notice that we tell it we want geojson)
 var sqlClient = new cartodb.SQL({
-  user: 'npzimmerman',
+  user: 'moradology',
   format: 'geojson'
 });
 
@@ -77,7 +77,7 @@ var reviewComplete = function(lat, lng, name, rating) {
         "VALUES (ST_GeomFromText('POINT(" + lng + ' ' + lat +
         ")', 4326),'" + name + "', " + rating +
         ")&api_key=" + APIKEY;
-  $.ajax('https://npzimmerman.cartodb.com/api/v2/sql?q=' + sql).done(function() {
+  $.ajax('https://moradology.carto.com/api/v2/sql?q=' + sql).done(function() {
     $('#name').prop('disabled', false);
     $('#rating').prop('disabled', false);
     $('#submit').prop('disabled', false);
