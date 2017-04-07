@@ -1,5 +1,5 @@
 var INSERT = true;
-var APIKEY = "";
+var APIKEY = "3a5ff146a6e40b37b835932405e7417d7154d587";
 
 // Leaflet map setup
 var map = L.map('map', {
@@ -119,5 +119,3 @@ map.on('draw:created', function (e) {
   map.addLayer(layer);
   drawnLayerID = layer._leaflet_id;
 });
-
-

@@ -12,6 +12,15 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{
   ext: 'png'
 }).addTo(map);
 
+var testFunction = function(){
+  var test = 123;
+  console.log("testing");
+  test = 234;
+  return test;
+};
+// Sources - Watch
+// Network:
+//Web storage API
 
 // Include this CSS so that torque knows what to do
 var CARTOCSS = [
@@ -74,4 +83,3 @@ _.each([1, 2, 3, 4, 5, 6, 7], function(num) {
     });
   $('#button-container').append(button);
 });
-
